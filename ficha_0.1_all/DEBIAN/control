@@ -1,0 +1,12 @@
+Package: python3-ficha
+Version: 0.1
+Architecture: all
+Maintainer: Efrain Bonilla <efrainbonilla.dev@gmail.com>
+Installed-Size: 1336
+Section: python3
+Priority: optional
+Build-Depends: python3-all, debhelper (>= 7.4.3)
+Depends: ffmpeg (>=2.8.10)
+Homepage: https://github.com/efrainbonilla/ficha
+Description: Instalador sistema ficha
+

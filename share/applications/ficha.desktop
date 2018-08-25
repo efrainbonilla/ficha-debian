@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ficha
+GenericName=Ficha Senapi
+GenericName[es]=Sistema de Atención al Usuario
+Comment=Sistema de atención al usuario modulo ficha
+Comment[es]=Sistema de atención al usuario modulo ficha
+Exec=sh -c "for i in $(pgrep chrome); do  kill -9 $i; done; ficha; /usr/bin/google-chrome-stable --kiosk-printing %U https://ficha.senapi.gob.bo;"
+Icon=ficha
+Terminal=false
+StartupNotify=false
+Categories=KDE;Network;WebBrowser;
